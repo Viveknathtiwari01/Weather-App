@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:black;
+}
+.outer{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(45deg,red,blue);
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    margin: 3em auto 0;
+    border-radius: 1em;
+    padding: 2.5em 1.9em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.search{
+    width:100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: .5em 1.5em;
+    height: 2.4em;
+    width: 1rem;
+    border-radius: 20px;
+    flex:1;
+    margin: 1rem 1rem 1rem 0;
+    font-size: 1.1em;
+    box-shadow: 10px 10px 10px #000000cd;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 2.4em;
+    height: 2.4em;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px;
+
+}
+.search img{
+    width: 1.2rem;
+}
+.cloud-icon{
+     width: 50%;
+    margin: 1em 0;
+}
+.cloud img{
+    height: 160px;
+}
+.cloud h1{
+    font-size: 3.5em;
+    font-weight: 400;
+}
+.cloud h2{
+    font-size: 2.5em;
+    font-weight: 400;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* padding: 0 1rem; */
+    margin-top: 2rem;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin: .5em;
+}
+.col img{
+    width: 2.5em;
+    height: 2rem;
+    margin-right: 10px;
+    
+}
+.humidity, .wind{
+    font-size: 1.8rem;
+    margin-top: 6px;
+}
+.humidityText, .windText{
+    margin-top: -25px;
+    font-size: 1rem;
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: red;
+    margin-top: 10px;
+    display: none;
+}
